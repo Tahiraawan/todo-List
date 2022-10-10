@@ -1,0 +1,47 @@
+:root{
+    --primary-font: 'inter', sans-serif;
+    --secondary-font: 'Oswald', sans-serif;
+
+    --primary-color:#f34821;
+    --secondary-color: #fb6745;
+
+    --primary-text: #ffffff;
+
+    --transition:  0.5s all ease-out;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6, th{
+    font-family: var(--secondary-font);
+  }
+  
+  .students-crud-app{
+    h1{
+        text-align: center;
+      }
+  }
+@import './styles/components/LoginForm.scss';
+@import './styles/components/RegisterForm.scss';
+@import './styles/layout/PageLayout.scss';
+@import './styles/components/GoBackLink.scss';
+@import './styles/components/AddTodoPage.scss';
+@import './styles/components/TodoList.scss';
+@import './styles/components/TodoListItem.scss';
+@import 'react-confirm-alert/src/react-confirm-alert.css';

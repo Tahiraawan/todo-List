@@ -1,0 +1,16 @@
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  .material-icons-outlined {
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+    padding: 0.2rem;
+    border-radius: 4px;
+  }
+  span {
+    color: var(--primary-color);
+  }
+}
